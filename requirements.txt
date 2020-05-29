@@ -1,0 +1,7 @@
+behave
+nose
+pycodestyle
+pydocstyle
+rstcheck
+sphinx
+sphinx_rtd_theme
