@@ -1,0 +1,13 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.configureOnOpen": true,
+    "cmake.configureSettings": {
+        "PythonPath": "${workspaceFolder}/.venv/Scripts/pypy3.exe",
+    },
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.venvPath": "${workspaceFolder}/.venv",
+    "python.pythonPath": "${workspaceFolder}/.venv/Scripts/pypy3.exe",
+    "python.testing.nosetestsEnabled": true,
+    "restructuredtext.confPath": "${workspaceFolder}/build/docs/_build/",
+}
