@@ -26,5 +26,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED true)
 
 include(dependencies)
 
+message(STATUS "catch2 dir: ${catch2_SOURCE_DIR}")
+
 add_subdirectory(docs)
 add_subdirectory(src)
+
+include(CTest)
+enable_testing()
+add_subdirectory(tests)

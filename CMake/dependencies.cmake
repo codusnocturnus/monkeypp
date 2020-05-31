@@ -31,3 +31,8 @@ FetchContent_MakeAvailable(
     fmt
     range-v3
 )
+
+# allows Catch2 utilities to be used
+list(APPEND
+    CMAKE_MODULE_PATH ${catch2_SOURCE_DIR}/contrib
+)
